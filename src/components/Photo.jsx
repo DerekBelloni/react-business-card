@@ -3,7 +3,9 @@ import myPhoto from '../images/my-photo.jpg'
 
 const Photo = () => {
   return (
-    <img className="card--photo" src={myPhoto} alt="" />
+    <div className="">
+      <img className="card--photo img-fluid" src={myPhoto} alt="" />
+    </div>
   )
 }
 

@@ -1,5 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #1e2b43;
+}
+
+.card--body {
+  box-sizing: border-box;
+  background-color: rgb(15, 11, 26);
+  max-width: 300px;
+  max-height: 400px;
+  color: white;
+  text-align: center;
 }
 
 .card--photo {
@@ -11,12 +24,4 @@ body {
   border-top-right-radius: 15px;
   display: flex;
   justify-content: center;
-}
-
-.card--body {
-  box-sizing: border-box;
-  background-color: rgb(15, 11, 26);
-  max-width: 300px;
-  max-height: 400px;
-  color: white;
 }
