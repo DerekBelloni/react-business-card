@@ -1,12 +1,14 @@
 import React from 'react';
-import Photo from './components/Photo'
+import Photo from "./components/Photo";
 import Card from './components/Card'
 
 const App = () => {
   return (
     <>
-
-      <Card />
+      <div className="container">
+        <Photo />
+        <Card />
+      </div>
     </>
   )
 }
