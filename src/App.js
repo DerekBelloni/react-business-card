@@ -3,6 +3,7 @@ import Photo from "./components/Photo";
 import Card from './components/Card';
 import Buttons from "./components/Buttons";
 import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Card />
         <Buttons />
         <Main />
+        <Footer />
       </div>
     </>
   )
